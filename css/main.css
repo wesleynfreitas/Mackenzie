@@ -73,3 +73,14 @@
 	text-align: center;
 }
 
+a {
+    list-style-type: none;
+	text-align: center;
+	background-color: #4A4A4A;
+    color: white;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
