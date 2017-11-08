@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Mackenzie - Sobre</title>		
+	  	<link href="../css/about.css" rel="stylesheet">
+        <link rel="icon" href="../img/iconapple.ico">
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Mackenzie</title>
-</head>
+	<body class="body">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-li"><a href="../index.html"><img class="apple-logo" src="../img/apple-logo.png" alt="logo_apple"></a></li>
+                <li class="nav-list-li"><a href="./main.html">Início</a></li>
+                <li class="nav-list-li"><a href="./apple.html">Apple</a></li>
+                <li class="nav-list-li"><a href="./steve.html">Steve Jobs</a></li>
+                <li class="nav-list-li"><a href="./about.html">Contato</a></li>
+            </ul>
+        </nav>
 
-<body>
+        <section class="section-main">
+            <h1>Alguma dúvida?</h1>
+            <h3>Envie-nos uma mensagem! </h3>
+        </section>
 
-</body>
+        <section class="section-form">
+            <h4>Formúlario de contato</h4>
+            <hr class="hr1">
+            <form class="main-form">
+                <p><label for="nome"></label></p>
+                <input type="text" id="nome" name="nome" placeholder="Nome">
+                <p><label for="email"></label></p>
+                <input type="email" id="email" name="email" placeholder="E-mail"><br>
+                <p><label for="assunto"></label></p>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto">                
+                <p><label for="Mensagem"></label></p>
+                <textarea rows="5" cols="50" id="mensagem" name="mensagem" placeholder="Digite sua mensagem..."></textarea><br>                
+                <div class="button_class">
+                    <button type="submit" class="submit_form">Enviar</button>
+                </div>
+            </form>
+        </section>	
+
+        <footer class="footer">
+            <h4>Obrigado por entrar em contato conosco!</h4>
+        </footer>	
+	</body>
 </html>
