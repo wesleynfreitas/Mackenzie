@@ -1,0 +1,112 @@
+@font-face {font-family: SFTLight;src: url(SanFranciscoText-Light.otf);}
+
+
+.body {
+	padding: 0;
+	margin: 0;
+    font-family: 'SFTLight', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.nav-list {
+	width: 100%;
+	padding: 0.7% 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	background-color: #4A4A4A;
+	color: white;
+	height: %;
+}
+
+.apple-logo {
+	width: 1.2%;
+}
+
+.nav-list-li {
+	display: inline;
+	margin: 0 2%;
+}
+
+.nav-list-li:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+a {
+    list-style-type: none;
+	text-align: center;
+	background-color: #4A4A4A;
+    color: white;
+}
+
+a:link { 
+ text-decoration:none; 
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-top: 5%;
+    width: 100%;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6 {
+	width: 100%;
+	height: 16,6%;
+	margin-top: 5%;
+}
+
+.box1_img {
+	width: 50%;
+	margin:0 auto;
+	margin-top: 10%;
+}
+.box1_img img {
+	width: 100%;
+}
+h1,h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.box2_sub,.box3_sub,.box4_sub,.box5_sub,.box6_sub{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.box2_sub img {
+	width: 100%;
+	zoom:50%;
+}
+.box2_sub h2 {
+	font-size: 1.5em;
+	margin-top: 14%;
+}
+.box2_sub h3{
+	font-size: 2.5em;
+}
+.box3_sub h2,.box4_sub h2,.box5_sub h2,.box6_sub h2 {
+	margin-top: 5%;
+}
+.box4_sub img {
+	width: 100%;
+}
+.box4_sub h3 {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+.box6_sub h3,.box5_sub h3 {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+.box6_sub img {
+	width: 100%;
+}

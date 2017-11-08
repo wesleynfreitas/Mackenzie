@@ -1,0 +1,151 @@
+@font-face {font-family: SFTLight;src: url(SanFranciscoText-Light.otf);}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	padding: 0;
+	margin: 0;
+    font-family: 'SFTLight', sans-serif;
+    width: 100%;
+    height: 100%;
+	background: black;
+	color:white;
+}
+.nav-list {
+	width: 100%;
+	padding: 0.7% 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	background-color: #4A4A4A;
+	color: white;
+}
+
+.apple-logo {
+	width: 1.2%;
+}
+
+.nav-list-li {
+	display: inline;
+	margin: 0 2%;
+}
+
+.nav-list-li:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+a {
+    list-style-type: none;
+	text-align: center;
+	background-color: #4A4A4A;
+    color: white;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+.main{
+	border: 0px solid red;
+	width: 100%;
+	min-height:900px;
+	position: relative;
+}
+
+.stevepic{
+	background-image: url("../img/stevejobs5.jpg");
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;	
+	min-height: 610px;
+}
+
+.box1 {
+	border: 0px solid blue;
+	width: 73%;
+	height: 800px;
+	float: left;
+	position: relative;
+}
+
+.box1_sub1,.box1_sub2,.box1_sub3,.box1_sub4,.box1_sub5,.box1_sub6 {width:50%;position: absolute;right: 0;text-align: right;padding: 2%;}
+.box1_sub1{margin-top: 10%;}
+.box1_sub2 {margin-top: 25%;}
+.box1_sub3 {margin-top: 40%;}
+.box1_sub4 {margin-top: 57%;}
+.box1_sub5 {margin-top: 72%;}
+.box1_sub6 {margin-top: 90%;}
+
+.box2{
+	border: 0px solid green;
+	background: black;
+	width: 1%;
+	height: 1200px;
+	float: left;
+	position: relative;
+}
+
+.box2_line {
+	background: white;
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+.line_ball1,.line_ball2,.line_ball3,.line_ball4,.line_ball5,.line_ball6,.line_ball7,.line_ball8,.line_ball9,.line_ball10,.line_ball11,.line_ball12{
+	background: white;
+	width: 100%;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+}
+.line_ball1{top:3%;}
+.line_ball2{top:13%;}
+.line_ball3{top:21%;}
+.line_ball4{top:28%;}
+.line_ball5{top:35%;}
+.line_ball6{top:42%;}
+.line_ball7{top:50%;}
+.line_ball8{top:60%;}
+.line_ball9{top:67%;}
+.line_ball10{top:75%;}
+.line_ball11{top:82%;}
+.line_ball12{top:93%;}
+
+.box3{
+	border: 0px solid black;
+	width: 25%;min-height: 900px;
+	float: left;
+	position: relative;
+}
+.box3_sub1,.box3_sub2,.box3_sub3,.box3_sub4,.box3_sub5,.box3_sub6 {width: 80%;position: absolute;padding: 2%;}
+.box3_sub2 {margin-top: 50%;}
+.box3_sub3 {margin-top: 97%;}
+.box3_sub4 {margin-top: 140%;}
+.box3_sub5 {margin-top: 190%;}
+.box3_sub6 {margin-top: 235%;}
+
+.box4{
+	width: 100%;
+	height: 50%;
+	background: white;
+	position: relative;
+	color: black;
+	float: left;
+}
+
+.box4_sub1,.box4_sub2{
+	width: 40%;
+	float: left;
+	padding: 5%;
+	text-indent: 10%;
+	text-align: justify;
+}
