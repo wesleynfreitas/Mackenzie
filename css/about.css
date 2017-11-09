@@ -66,7 +66,7 @@
 
 
 .section-form {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     height: 500px;
 }
@@ -79,7 +79,11 @@
 }
 
 .main-form {
-	width: 30%;
+	width: 100%;
+	margin: 0 auto;
+}
+.div_form {
+	width: 25%;
 	margin: 0 auto;
 }
 
