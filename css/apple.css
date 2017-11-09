@@ -64,7 +64,7 @@ a:link {
 .box1_sub1,.box1_sub2,.box2_sub1,.box2_sub2,.box3_sub1,.box3_sub2 {
 	padding: 2%;
 	width: 46%;
-	min-height: 520px;
+	min-height: 600px;
 	float: left;
 	background-color: #D3D3D3;
 }
